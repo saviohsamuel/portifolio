@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página inicial</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/reset.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img src="assets/logo.svg" alt="Logo HTML" class="cabecalho__logo">
+            <nav class="cabecalho__nav">
+                <a href="#home" class="cabecalho__nav__link">Home</a>
+                <a href="#sobreMim" class="cabecalho__nav__link">Sobre mim</a>
+                <a href="#contatos" class="cabecalho__nav__link">Contatos</a>
+            </nav>
+        </header>
+        
+        <section id="home" class="principal">
+            <div class="textos">
+                <h1 class="textos__apresentacao">Olá, sou Sávio Samuel</h1>
+                <p class="textos_titulo">Desenvolvedor Front-End</p>                
+                <p class="textos__apresentacao">Ajudo pequenos negócios e designers a colocarem em prática boas ideias.</p>
+                <a href="https://vercel.com/login" class="textos__botao">Veja meus projetos</a>                
+            </div>            
+            <img src="assets/developer.svg" alt="Desenho de um desenvolvedor de software" class="principal__imagem">
+        </section>
+
+        <section id="sobreMim" class="principal container__secundario">
+            <img src="assets/about.png" alt="Desenho que representa o sobre mim (EU)" class="principal__imagem">
+
+            <div class="secundario__textos">
+                <h2 class="secundario__textos__subtitulo">Sobre mim</h2>
+                <p class="secundario__textos__descricao">Sou formado em Tecnologo em administraçao, atualmente faço curso de graduação de Análise e desenvolvimento de sistemas, estou em transição para mudar para áera de programação, meu foco é ser desenvolvedor Front-end.</p>
+            </div>
+        </section>
+
+        <section id="contatos" class="principal container__secundario container__contatos">
+            <div class="secundario__textos">
+                <h2 class="secundario__textos__subtitulo">Contatos</h2>
+                <p class="secundario__textos__descricao">Fale comigo pelas minhas redes sociais, entre no meu perfil do Github para ver meu repositório, meu Linkedin para fazer-mos conexão ou Gmail para qualquer tipo e dúvida.</p>
+
+                <div class="contatos">
+                    <a href="https://github.com/" class="contatos__link">
+                        <img src="assets/github.png" alt="Logo Github" class="contatos__imagem">Github
+                    </a>
+
+                    <a href="https://www.linkedin.com/home" class="contatos__link">
+                        <img src="assets/linkedin.png" alt="Logo Linkedin" class="contatos__imagem">Linkedin
+                    </a>
+                    
+                    <a href="https://www.google.com/intl/pt-BR/gmail/about/" class="contatos__link">
+                        <img src="assets/gmail.png" alt="Logo Gmail" class="contatos__imagem">Gmail
+                    </a>
+                </div>
+            </div>
+
+            <img src="assets/contacts.png" alt="Desenho de uma pessoa respondendo mensagens" class="principal__imagem">
+        </section>
+
+        <footer class="rodape">
+            <p>Desenvolvido por Sávio Samuel</p>
+        </footer>
+    </body>
+</html>
